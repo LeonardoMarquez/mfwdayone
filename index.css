@@ -8,3 +8,30 @@ header {
     color: aqua;
     text-align: center;
 }
+
+#menutoggle {
+    display: block;
+    position: fixed;
+    top: 150px;
+    left: 20px;
+    z-index: 1;
+}
+
+#menutoggle a {
+    text-decoration: none;
+    color: aqua;
+}
+
+#menutoggle a:hover {
+    color: #ffffff;
+}
+
+#menutoggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: aqua;
+    border-radius: 3px;
+}
